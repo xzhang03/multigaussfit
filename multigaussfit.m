@@ -1,6 +1,6 @@
 function sol = multigaussfit(x, y, varargin)
 % multigaussfit is a gaussian fit function. User set constrained or not
-% [sol, fun] = multigaussfit(x, y, varargin)
+% sol = multigaussfit(x, y, varargin)
 
 %% Parse inputs
 p = inputParser;
